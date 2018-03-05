@@ -29,7 +29,7 @@ function WordCloud() {
                 })
                 .font('Impact')
                 .fontSize(function (d) {
-                    return d.size;
+                    return (d.size);
                 })
                 .on("end", function (nodes) {
                     d3.select(tag_id).append("svg")
@@ -41,7 +41,7 @@ function WordCloud() {
                             .data(nodes)
                             .enter().append("text")
                             .style("font-size", function (d) {
-                                return d.size + "px";
+                                return (d.size) + "px";
                             })
                             .attr("text-anchor", "middle")
                             .style("font-family", "Impact")
@@ -68,7 +68,7 @@ function WordCloud() {
 function create_word_cloud(word_cloud_data)
 {
     var word_cloud = new WordCloud();
-    word_cloud.render_cloud(word_cloud_data, '#word-cloud', jQuery("#word-cloud").width(), 600);
+    word_cloud.render_cloud(word_cloud_data, '#word-cloud', jQuery("#word-cloud").width(), 400);
 }
 
 

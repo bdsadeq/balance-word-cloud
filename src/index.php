@@ -15,10 +15,12 @@
     </head>
     <body>
         <div class="container top-wrapper">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Word Cloud</h5>
-                    <p class="card-text" id="word-cloud"></p>
+            <div class="col-sm-6 offset-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Word Cloud</h5>
+                        <p class="card-text" id="word-cloud"></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,8 +32,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
         <script src="./js/d3.min.js"></script>
-        <!--<script src="./js/d3.layout.cloud.min.js"></script>-->
-        <script src="./js/d3.layout.cloud.js"></script>
+        <script src="./js/d3.layout.cloud.min.js"></script>
         <script src="./js/custom.js"></script>
 
         <?php require 'word_cloud_data.php'; ?>
