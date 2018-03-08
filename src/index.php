@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="container top-wrapper">
-            <div class="col-sm-6 offset-sm-3">
+            <div class="col-sm-6 offset-sm-3" id="cloud-container">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Word Cloud</h5>
