@@ -11,14 +11,11 @@
         <div id="vis"></div>
 
 
+        <script src="./js/jquery-3.3.1.js"></script>
+
         <script type="text/javascript" src="./js/d3.min.js"></script>
         <script type="text/javascript" src="./js/d3.layout.cloud.min.js"></script>
-        
-                <script
-            src="https://code.jquery.com/jquery-1.12.4.min.js"
-            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-        <script type="text/javascript" src="./js/tags.js"></script>
-        <script type="text/javascript" src="./js/word-cloud.js"></script>
+
+        <script type="text/javascript" src="./js/auto-size-2.js"></script>
     </body>
 </html>
